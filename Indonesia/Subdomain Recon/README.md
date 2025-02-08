@@ -17,6 +17,9 @@ $ go install github.com/tomnomnom/assetfinder@latest
 $ pip install sublist3r amass knock-subdomains
 ```
 
+# Konfigurasi terminal
+Pada terminal (linux) kalian cek dulu, pake bash atau zsh. Ketik perintah <code>echo $SHELL</code>
+
 # 💻 Cara penggunaan 
 # 👨‍💻 Single Scan
 ```
@@ -57,5 +60,7 @@ $ cat list.txt | while read domain; do amass enum -d $domain; done
 
 # Knockpy (lama)
 <img src="https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Subdomain%20Recon/Screenshot_20250208-201716.jpg">
+
+Untuk yang pengen simpel tanpa perlu install tools2 di atas kalian bisa pakai <a href="https://dash.pugrecon.celes.in/">PugRecon</a>
 
 Semoga ini bisa membantu kalian, terima kasih.
