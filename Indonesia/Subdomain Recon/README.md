@@ -42,4 +42,20 @@ $ cat list.txt | while read domain; do sublist3r -d $domain; done
 $ cat list.txt | while read domain; do amass enum -d $domain; done
 ```
 
+# 🖼️ Screenshot 
+# Subfinder
+<img src="https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Subdomain%20Recon/Screenshot_20250208-195951.jpg">
+
+# Assetfinder
+<img src="https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Subdomain%20Recon/Screenshot_20250208-195543.jpg">
+
+# Sublist3r
+<img src="https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Subdomain%20Recon/Screenshot_20250208-200254.jpg">
+
+# Amass
+<img src="https://github.com/randixploit/Bug-Hunting-Tips/blob/main/Indonesia/Subdomain%20Recon/Screenshot_20250208-200855.jpg">
+
+# Knockpy (lama)
+<img src="https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Subdomain%20Recon/Screenshot_20250208-201716.jpg">
+
 Semoga ini bisa membantu kalian, terima kasih.
