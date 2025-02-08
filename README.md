@@ -1,4 +1,4 @@
-# 🚀 Bug-Hunting-Tips
+# 🚀 Bug Hunting Tips
 Tips for conducting pentesting on the website you want to test. If you are a beginner, this repository will really help you in learning how to conduct penetration testing correctly and ethically.
 
 # 🈂️ Using 2 languages 
