@@ -11,14 +11,35 @@ Halo guys, bagi saya hal pertama yang perlu lakukan saat ingin melakukan penetra
 # Instalasi
 ```
 $ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
 $ go install github.com/tomnomnom/assetfinder@latest
+
 $ pip install sublist3r amass knock-subdomains
 ```
 
-# Cara penggunaan 
-# Single Scan
+# 💻 Cara penggunaan 
+# 👨‍💻 Single Scan
 ```
-subfinder -d domain.com -all -o subdomains.txt
-assetfinder domain.com | tee subdomains.txt
-sublist3r -d domain.com -o subdomains.txt
+$ subfinder -d domain.com -all -recursive
+
+$ assetfinder domain.com
+
+$ sublist3r -d domain.com
+
+$ amass enum -d domain.com
+
+$ knockpy -d domain.com --recon
 ```
+
+# 👨‍💻 Mass scan
+```
+$ subfinder -dL list.txt -all -recursive
+
+$ cat list.txt | assetfinder
+
+$ cat list.txt | while read domain; do sublist3r -d $domain; done
+
+$ cat list.txt | while read domain; do amass enum -d $domain; done
+```
+
+Semoga ini bisa membantu kalian, terima kasih.
