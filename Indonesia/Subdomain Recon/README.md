@@ -18,10 +18,10 @@ $ pip install sublist3r amass knock-subdomains
 ```
 
 # Konfigurasi terminal
-Pada terminal (linux) kalian cek dulu, pake bash atau zsh. Ketik perintah <code>echo $SHELL</code>
+Pada terminal (linux) kalian cek dulu, pake bash atau zsh. Ketik perintah <code>echo $SHELL</code> kalau outputnya zsh maka edit pada file ~/.zshrc, kalo bash maka edit pada file ~/.bashrc. Kemudian kalian tambahkan kode di paling bawah.
 
 # Code
-```
+```shell
 export PATH=$PATH:/usr/local/go/bin 
 export GOPATH=$HOME/go 
 export PATH=$PATH:$GOPATH/bin 
