@@ -9,7 +9,7 @@ Halo guys, bagi saya hal pertama yang perlu lakukan saat ingin melakukan penetra
 5. <a href="https://github.com/guelfoweb/knock">Knockpy</a>
 
 # Instalasi
-```shell
+```bash
 $ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 $ go install github.com/tomnomnom/assetfinder@latest
@@ -30,7 +30,7 @@ export PATH=$PATH:~/.local/bin
 
 # 💻 Cara penggunaan 
 # 👨‍💻 Single Scan
-```shell
+```bash
 $ subfinder -d domain.com -all -recursive
 
 $ assetfinder domain.com
@@ -43,7 +43,7 @@ $ knockpy -d domain.com --recon
 ```
 
 # 👨‍💻 Mass scan
-```shell
+```bash
 $ subfinder -dL list.txt -all -recursive
 
 $ cat list.txt | assetfinder
