@@ -69,6 +69,15 @@ $ cat list.txt | while read domain; do amass enum -d $domain; done
 # Knockpy (long)
 <img src="https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Subdomain%20Recon/Screenshot_20250208-201716.jpg">
 
-For those who want it to be simple without needing to install the tools above, you can use <a href="https://dash.pugrecon.celes.in/">PugRecon</a>
+Now how do you find out which subdomains are still active now? I have a way to check this, you just need to use the tools <a href='https://github.com/projectdiscovery/httpx'>Httpx</a> or <a href='https://github.com/tomnomnom/httprobe'>Httprobe</a>, you can use one of them to filter subdomains, the installation method is already on the github page, fine for filtering subdomains that are still active You just need to use a command like this:
+
+# Code
+```bash
+# using httpx
+httpx -l subdomains -o alive.txt
+
+# using httprobe
+cat subdomains.txt | httprobe | tee alive.txt
+```
 
 Hope this helps you, thank you.
