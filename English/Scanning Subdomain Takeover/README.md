@@ -30,7 +30,7 @@ If so, just <code>source ~/.zshrc</code> or <code>source ~/.bashrc</code>
 ```bash
 $ subzy r --target subdomain.domain.com
 
-$ echo http://subdomain.domain.com | sudosec
+$ echo http://subdomain.domain.com | subdosec
 ```
 
 # 👨‍💻 Mass scan
