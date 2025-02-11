@@ -28,6 +28,8 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/.local/bin
 ```
 
+Kalau sudah tinggal <code>source ~/.zshrc</code> atau <code>source ~/.bashrc</code>
+
 # 💻 Cara penggunaan 
 # 👨‍💻 Single Scan
 ```bash
