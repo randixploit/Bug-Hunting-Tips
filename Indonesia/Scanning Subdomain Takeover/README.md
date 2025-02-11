@@ -28,19 +28,27 @@ export PATH=$PATH:~/.local/bin
 Kalau sudah tinggal <code>source ~/.zshrc</code> atau <code>source ~/.bashrc</code>
 
 # Cara penggunaan
-# Single scan
+# 👨‍💻 Single scan
 ```bash
 $ subzy r --target subdomain.domain.com
 
 $ echo http://subdomain.domain.com | sudosec
 ```
 
-# Mass scan
+# 👨‍💻 Mass scan
 ```bash
 $ subzy r --targets subdomains.txt
 
 $ cat subdomains.txt | subdosec
 ```
 
-# Screenshots
+# 🖼️ Screenshots
 # SUbzy
+<img src='https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Scanning%20Subdomain%20Takeover/Screenshot_20250211_103656.png'>
+
+# Subdosec
+<img src='https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Scanning%20Subdomain%20Takeover/Screenshot_20250211_103922.png'>
+
+Kalau nemu subdomain yang rentan langsung laporkan pada tim it atau pengelola website tersebut, kecuali jika kamu memiliki izin lebih untuk melakukan takeover pada subdomain tersebut agar memperkuat bukti kerentanan.
+
+semoga bermanfaat.
