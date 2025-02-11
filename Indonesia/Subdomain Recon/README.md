@@ -69,6 +69,16 @@ $ cat list.txt | while read domain; do amass enum -d $domain; done
 # Knockpy (lama)
 <img src="https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Subdomain%20Recon/Screenshot_20250208-201716.jpg">
 
-Untuk yang pengen simpel tanpa perlu install tools2 di atas kalian bisa pakai <a href="https://dash.pugrecon.celes.in/">PugRecon</a>
+Sekarang bagaimana cara mengetahui subdomain mana saja kah yang masih aktif untuk sekarang? saya punya cara untuk mengecek hal tersebut, kalian tinggal pakai tools <a href='https://github.com/projectdiscovery/httpx'>Httpx</a> atau <a href='https://github.com/tomnomnom/httprobe'>Httprobe</a>, kalian bisa pakai salah satunya untuk memfilter subdomain, untuk cara penginstalannya sudah ada di halaman github nya, baiklah untuk memfilter subdomain yang masih aktf kalian tinggal pakai command seperti ini:
+
+# Code
+```bash
+# menggunakan httpx
+httpx -l subdomains -o alive.txt
+
+# menggunakan httprobe
+cat subdomains.txt | httprobe | tee alive.txt
+```
+
 
 Semoga ini bisa membantu kalian, terima kasih.
