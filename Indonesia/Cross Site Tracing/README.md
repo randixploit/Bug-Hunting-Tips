@@ -5,7 +5,7 @@ Apa itu XST? Singkatnya XST (Cross-Site Tracing) adalah jenis serangan web yang 
 Untuk melakukan serangan XST kalian hanya bisa menggunakan curl command dari terminal. sebenarnya bisa menggunakan cara lain seperti lewat burp suite atau semacamnya, tetapi itu ribet. lebih baik yang simpel aja.
 
 # 👨‍💻 Perintah
-```
+```shell
 curl -X TRACE http://example.com -b "sessionId=mallicious_value"
 
 curl -X TRACE http://example.com -H "Test-XST: Just_R"
