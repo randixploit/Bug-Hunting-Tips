@@ -22,6 +22,8 @@ intitle:"Swagger UI" site:.
 
 # 🖼️ Screenshots 
 
+<img src="https://raw.githubusercontent.com/randixploit/Bug-Hunting-Tips/refs/heads/main/Indonesia/Cross%20Site%20Scripting/DOM-based%20XSS%20pada%20Swagger%20UI/kmc_20250216_010023.png">
+
 
 # 🎥 Video
 
