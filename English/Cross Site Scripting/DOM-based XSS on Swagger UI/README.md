@@ -1,4 +1,4 @@
-# 🚀 DOM based XSS on Swagger UI 
+# 🚀 DOM-based XSS on Swagger UI 
 
 What is DOM-based XSS? In short DOM-Based These attacks typically occur when JavaScript takes input from a URL or other DOM element without validation, allowing the attacker to insert and execute malicious code in the victim's web page. # ⚡ Reference https://github.com/seanmarpo/webjars-swagger-xss
 
