@@ -56,6 +56,7 @@ sqlmap -m sqli.txt --random-agent --batch -v3 --tamper space2comment,between,ran
 
 # 🖼️ Screenshot 
 
+<img src="https://github.com/randixploit/Bug-Hunting-Tips/blob/main/Indonesia/SQL%20Injection/SQL%20Injection%20pada%20URL%20parameter/IMG_20250216_175246_878.jpg?raw=true">
 
 
 Disini saya tidak membuang databasenya karena bagi saya itu melanggar hukum, karena kami sebagai pentester tidak mempunyai izin lebih lanjut untuk itu. Namun, hal ini juga diperlukan jika kamu melaporkan kerentanan seperti injeksi SQL yang mengharuskan kamu membuang database untuk mendapatkan bukti kuat. Semoga bermanfaat dan bisa digunakan untuk hal yang baik, bukan untuk kegiatan yang jahat ya 👌.
